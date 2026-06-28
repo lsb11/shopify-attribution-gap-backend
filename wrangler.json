@@ -1,0 +1,12 @@
+{
+  "name": "shopify-attribution-gap-backend",
+  "compatibility_date": "2026-04-05",
+  "pages_build_output_dir": "./public",
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "attribution-gap",
+      "database_id": "placeholder-will-be-provisioned-on-deploy"
+    }
+  ]
+}
