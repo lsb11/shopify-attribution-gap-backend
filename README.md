@@ -4,6 +4,8 @@ A lightweight, edge-native data-collection backend built entirely on **Cloudflar
 
 No traditional server. No external database. Two Pages Functions and one D1 SQL table.
 
+**Live:** the [Shopify iOS attribution gap benchmark](https://stackarchitect.xyz/shopify-ios-attribution-gap-benchmark/) runs on this backend. Measure your own store's gap with the [Shopify vs Meta attribution gap calculator](https://stackarchitect.xyz/shopify-vs-meta-attribution-gap-calculator/), and read [how the benchmark is checked](https://stackarchitect.xyz/how-we-test/). Built by [Stack Architect](https://stackarchitect.xyz/).
+
 [![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/lsb11/shopify-attribution-gap-backend)
 
 One click provisions a D1 database, binds it as `DB`, and deploys the Functions to your own Cloudflare account. After deploy, run the schema once (see *Deploy it yourself* below) to create the table.
